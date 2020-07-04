@@ -1,0 +1,5 @@
+.idea
+springLearnings.iml
+springparent.iml
+common/target/common-1.0-SNAPSHOT.jar
+ioc/target/ioc-1.0-SNAPSHOT.jar
