@@ -1,5 +1,7 @@
-com/crbiitr/demo/MyApp.class
 com/crbiitr/demo/BaseballCoach.class
-com/crbiitr/IocApplication.class
 com/crbiitr/demo/Coach.class
+com/crbiitr/config/MyLoggerConfig.class
+com/crbiitr/demo/MyApp.class
+com/crbiitr/demo/HelloSpringApp.class
+com/crbiitr/IocApplication.class
 com/crbiitr/demo/TrackCoach.class
