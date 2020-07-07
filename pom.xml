@@ -14,6 +14,7 @@
     <module>common</module>
     <module>ioc</module>
       <module>dependencyInjection</module>
+      <module>annotation</module>
   </modules>
 
 </project>
