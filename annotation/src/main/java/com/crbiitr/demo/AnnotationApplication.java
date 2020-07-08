@@ -20,6 +20,9 @@ public class AnnotationApplication {
         System.out.println(tennisCoach.getDailyWorkout());
         System.out.println(trackCoach.getDailyWorkout());
 
+        System.out.println(tennisCoach.getDailyFortune());
+        System.out.println(trackCoach.getDailyFortune());
+
         // Close the context
         context.close();
     }

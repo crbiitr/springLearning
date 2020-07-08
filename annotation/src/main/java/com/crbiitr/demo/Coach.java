@@ -5,4 +5,5 @@ package com.crbiitr.demo;
  */
 public interface Coach {
     public String getDailyWorkout();
+    public String getDailyFortune();
 }

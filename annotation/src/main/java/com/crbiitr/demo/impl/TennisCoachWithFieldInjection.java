@@ -7,22 +7,23 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by chetan on 4/7/20.
+ * Created by chetan on 7/7/20.
  */
-@Component
-public class TrackCoach implements Coach {
-    //Define a private field for the dependency
+@Component("theTennisCoachWithFieldInjection")
+public class TennisCoachWithFieldInjection implements Coach {
+
+    // Define a private field for the dependency
+    @Autowired
+    @Qualifier("happyFortuneService")
     private FortuneService fortuneService;
 
-    // Define a constructor for the dependency injection
-    @Autowired
-    public TrackCoach(@Qualifier("happyFortuneService") FortuneService fortuneService) {
-        this.fortuneService = fortuneService;
+    public TennisCoachWithFieldInjection() {
+        System.out.println("Inside TennisCoachWithFieldInjection no-args constructor ====> ");
     }
 
     @Override
     public String getDailyWorkout() {
-        return "TrackCoach:: Run faster for 5 minutes";
+        return "Practice very fast";
     }
 
     @Override
