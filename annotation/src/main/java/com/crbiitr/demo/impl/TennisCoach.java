@@ -4,12 +4,17 @@ import com.crbiitr.demo.Coach;
 import com.crbiitr.demo.FortuneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 /**
  * Created by chetan on 7/7/20.
  */
 @Component("theTennisCoach")
+//@Scope("prototype")
 public class TennisCoach implements Coach {
 
     // Define a private field for the dependency
@@ -48,6 +53,18 @@ public class TennisCoach implements Coach {
         this.fortuneService = fortuneService;
     }
 */
+
+   // define my init method
+    @PostConstruct
+    public void doMyStartupStuff() {
+        System.out.println("Inside TennisCoach::doMyStartupStuff ==>");
+    }
+
+    // define my destroy method
+    @PreDestroy
+    public void doMyCleanupStuff() {
+        System.out.println("Inside TennisCoach::doMyCleanupStuff ==>");
+    }
 
     @Override
     public String getDailyWorkout() {
