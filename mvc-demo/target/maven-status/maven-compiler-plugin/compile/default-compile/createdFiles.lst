@@ -1,0 +1,4 @@
+com/crbiitr/mvc/config/MyLoggerConfig.class
+com/crbiitr/mvc/controller/HomeController.class
+com/crbiitr/mvc/controller/HelloWorldController.class
+com/crbiitr/mvc/MVCApplication.class
