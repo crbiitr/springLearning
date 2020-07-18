@@ -42,27 +42,44 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Got this Exception, So added the below library:==> org.apache.jasper.JasperException: The absolute uri: [http://java.sun.com/jsp/jstl/core] cannot be resolved in either web.xml or the jar files deployed with this application  -->
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
     </dependencies>
 
     <build>
-<!--        <plugins>
-            <plugin>
+        <plugins>
+            <!--<plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.6.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-            </plugin>
-            <plugin>
+            </plugin>-->
+
+            <!-- Note this plugin is not working -->
+            <!--<plugin>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
                     <warSourceDirectory>webapp</warSourceDirectory>
                     <outputDirectory>/home/chetan/apache-tomcat-8.5.50/webapps</outputDirectory>
                 </configuration>
-            </plugin>
-        </plugins>-->
+            </plugin>-->
+        </plugins>
         <finalName>${project.artifactId}</finalName> <!-- added to remove Version from WAR file -->
         <!--<finalName>test</finalName>-->
     </build>

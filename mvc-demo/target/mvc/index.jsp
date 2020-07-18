@@ -13,6 +13,12 @@ pageEncoding="ISO-8859-1"%>
 		<h2>Hello World</h2>
 		<h3>
 			<a href="hello?name=Eric">Click Here</a>
+			<br><br>
+			<a href="showForm">Hello word form</a>
+			<br><br>
+            <a href="student/showForm">Student form</a>
+            <br><br>
+            <a href="customer/showForm">Customer form</a>
 		</h3>
 	</center>
 </body>
