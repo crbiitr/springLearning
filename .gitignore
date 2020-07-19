@@ -3,5 +3,16 @@ springLearnings.iml
 springparent.iml
 ioc/ioc.iml
 ioc/target
+ioc/.settings
 common/target
+common/.settings
+common/common.iml
 dependencyInjection/target
+dependencyInjection/.settings
+dependencyInjection/dependencyInjection.iml
+annotation/target
+annotation/annotation.iml
+annotation/.settings
+mvc-demo/target
+mvc-demo/mvc-demo.iml
+mvc-demo/.settings
