@@ -34,6 +34,3 @@ http://localhost:8080/mvc
     	http://www.springframework.org/schema/mvc
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 >
-
-        
-        
