@@ -1,0 +1,13 @@
+com/crbiitr/entity/Course.class
+com/crbiitr/HibernateApplication.class
+com/crbiitr/AddCoursesForMaryDemo.class
+com/crbiitr/CreateCourseAndStudentsDemo.class
+com/crbiitr/GetCoursesForMaryDemo.class
+com/crbiitr/entity/Instructor.class
+com/crbiitr/entity/InstructorDetail.class
+com/crbiitr/DeleteMaryStudentDemo.class
+com/crbiitr/TestJdbc.class
+com/crbiitr/DeletePacmanCourseDemo.class
+com/crbiitr/entity/Review.class
+com/crbiitr/entity/Student.class
+com/crbiitr/CreateCourseAndReviewsDemo.class

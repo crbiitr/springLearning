@@ -16,6 +16,7 @@
         <module>dependencyInjection</module>
         <module>annotation</module>
         <module>mvc-demo</module>
+        <module>hibernate-demo</module>
     </modules>
 
 </project>
