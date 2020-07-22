@@ -32,7 +32,7 @@ public class GetCoursesForMaryDemo {
 			Student tempStudent = session.get(Student.class, studentId);
 			
 			System.out.println("\nLoaded student: " + tempStudent);
-			System.out.println("Courses: " + tempStudent.getCourses());		
+			//System.out.println("Courses: " + tempStudent.getCourses());
 						
 			// commit transaction
 			session.getTransaction().commit();

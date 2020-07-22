@@ -32,7 +32,7 @@ public class DeleteMaryStudentDemo {
 			Student tempStudent = session.get(Student.class, studentId);
 			
 			System.out.println("\nLoaded student: " + tempStudent);
-			System.out.println("Courses: " + tempStudent.getCourses());		
+			//System.out.println("Courses: " + tempStudent.getCourses());
 		
 			// delete student
 			System.out.println("\nDeleting student: " + tempStudent);

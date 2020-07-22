@@ -33,7 +33,7 @@ public class AddCoursesForMaryDemo {
 			Student tempStudent = session.get(Student.class, studentId);
 			
 			System.out.println("\nLoaded student: " + tempStudent);
-			System.out.println("Courses: " + tempStudent.getCourses());
+			//System.out.println("Courses: " + tempStudent.getCourses());
 			
 			// create more courses 
 			Course tempCourse1 = new Course("Rubik's Cube - How to Speed Cube");

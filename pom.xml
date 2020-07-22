@@ -17,6 +17,10 @@
         <module>annotation</module>
         <module>mvc-demo</module>
         <module>hibernate-demo</module>
+        <module>hibernate-crud</module>
+        <module>hibernate-one-to-one-mapping</module>
+        <module>hibernate-one-to-many-mapping</module>
+        <module>hibernate-many-to-many-mapping</module>
     </modules>
 
 </project>

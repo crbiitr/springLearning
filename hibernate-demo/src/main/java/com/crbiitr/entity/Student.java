@@ -1,7 +1,6 @@
 package com.crbiitr.entity;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
 @Table(name="student")
@@ -20,7 +19,7 @@ public class Student {
 	
 	@Column(name="email")
 	private String email;
-	
+	/*
 	@ManyToMany(fetch=FetchType.LAZY,
 			cascade= {CascadeType.PERSIST, CascadeType.MERGE,
 			 CascadeType.DETACH, CascadeType.REFRESH})
@@ -31,7 +30,7 @@ public class Student {
 			)	
 	private List<Course> courses;
 
-	
+	*/
 	public Student() {
 		
 	}
@@ -73,6 +72,7 @@ public class Student {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+/*
 
 	public List<Course> getCourses() {
 		return courses;
@@ -81,6 +81,7 @@ public class Student {
 	public void setCourses(List<Course> courses) {
 		this.courses = courses;
 	}
+*/
 
 	@Override
 	public String toString() {

@@ -16,3 +16,13 @@ annotation/.settings
 mvc-demo/target
 mvc-demo/mvc-demo.iml
 mvc-demo/.settings
+hibernate-crud/target
+hibernate-crud/hibernate-crud.iml
+hibernate-demo/target
+hibernate-demo/hibernate-demo.iml
+hibernate-many-to-many-mapping/target
+hibernate-many-to-many-mapping/hibernate-many-to-many-mapping.iml
+hibernate-one-to-many-mapping/target
+hibernate-one-to-many-mapping/hibernate-one-to-many-mapping.iml
+hibernate-one-to-one-mapping/target
+hibernate-one-to-one-mapping/hibernate-one-to-one-mapping.iml
