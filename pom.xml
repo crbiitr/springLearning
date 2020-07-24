@@ -21,6 +21,7 @@
         <module>hibernate-one-to-one-mapping</module>
         <module>hibernate-one-to-many-mapping</module>
         <module>hibernate-many-to-many-mapping</module>
+        <module>hibernate-eager-vs-lazy</module>
     </modules>
 
 </project>

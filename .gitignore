@@ -26,3 +26,5 @@ hibernate-one-to-many-mapping/target
 hibernate-one-to-many-mapping/hibernate-one-to-many-mapping.iml
 hibernate-one-to-one-mapping/target
 hibernate-one-to-one-mapping/hibernate-one-to-one-mapping.iml
+hibernate-eager-vs-lazy/target
+hibernate-eager-vs-lazy/hibernate-eager-vs-lazy.iml
