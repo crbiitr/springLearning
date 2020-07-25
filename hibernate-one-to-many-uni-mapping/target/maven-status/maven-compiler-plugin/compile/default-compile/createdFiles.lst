@@ -1,0 +1,17 @@
+com/crbiitr/mainclasses/GetInstructorCoursesDemo.class
+com/crbiitr/entity/Course.class
+com/crbiitr/mainclasses/CreateDemo.class
+com/crbiitr/mainclasses/GetInstructorDetailDemo.class
+com/crbiitr/entity/Instructor.class
+com/crbiitr/entity/InstructorDetail.class
+com/crbiitr/mainclasses/CreateInstructorDemo.class
+com/crbiitr/mainclasses/GetCourseAndReviewsDemo.class
+com/crbiitr/mainclasses/CreateCourseAndReviewsDemo.class
+com/crbiitr/testjdbc/TestJdbc.class
+com/crbiitr/mainclasses/DeleteDemo.class
+com/crbiitr/mainclasses/CreateCoursesDemo.class
+com/crbiitr/mainclasses/DeleteCourseAndReviewsDemo.class
+com/crbiitr/entity/Review.class
+com/crbiitr/mainclasses/DeleteInstructorDetailDemo.class
+com/crbiitr/entity/Student.class
+com/crbiitr/mainclasses/DeleteCourseDemo.class

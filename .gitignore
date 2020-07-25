@@ -18,8 +18,8 @@ mvc-demo/mvc-demo.iml
 mvc-demo/.settings
 hibernate-crud/target
 hibernate-crud/hibernate-crud.iml
-hibernate-demo/target
-hibernate-demo/hibernate-demo.iml
+hibernate-one-to-many-uni-mapping/target
+hibernate-one-to-many-uni-mapping/hibernate-one-to-many-uni-mapping.iml
 hibernate-many-to-many-mapping/target
 hibernate-many-to-many-mapping/hibernate-many-to-many-mapping.iml
 hibernate-one-to-many-mapping/target
