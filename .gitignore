@@ -28,3 +28,7 @@ hibernate-one-to-one-mapping/target
 hibernate-one-to-one-mapping/hibernate-one-to-one-mapping.iml
 hibernate-eager-vs-lazy/target
 hibernate-eager-vs-lazy/hibernate-eager-vs-lazy.iml
+spring-hibernate-customer-tracker-with-maven-all-java-config/target
+spring-hibernate-customer-tracker-with-maven-all-java-config/spring-web-customer-tracker-all-java-config.iml
+aop/target
+aop/aop.iml
