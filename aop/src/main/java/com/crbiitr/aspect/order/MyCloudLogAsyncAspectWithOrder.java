@@ -10,9 +10,8 @@ import org.springframework.stereotype.Component;
 @Order(1)
 public class MyCloudLogAsyncAspectWithOrder {
 
-	@Before("com.crbiitr.aspect.order.AopExpressionsWithOrderUtil.forDaoPackageNoGetterSetter()")
-	public void logToCloudAsync() {
-		System.out.println("\n=====>>> Logging to Cloud in async fashion");		
-	}
-
+  @Before("com.crbiitr.aspect.order.AopExpressionsWithOrderUtil.forDaoPackageNoGetterSetter()")
+  public void logToCloudAsync() {
+    System.out.println("\n=====>>> Logging to Cloud in async fashion");
+  }
 }

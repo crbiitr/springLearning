@@ -7,6 +7,4 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @Configuration
 @EnableAspectJAutoProxy
 @ComponentScan("com.crbiitr")
-public class DemoConfig {
-
-}
+public class DemoConfig {}

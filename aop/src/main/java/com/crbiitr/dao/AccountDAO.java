@@ -3,46 +3,90 @@ package com.crbiitr.dao;
 import com.crbiitr.model.Account;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Component
 public class AccountDAO {
-    private String name;
-    private String serviceCode;
+  private String name;
+  private String serviceCode;
 
-    public void addAccount() {
-        System.out.println("===>> " + getClass() + ": ADDING AN ACCOUNT BUT WITH NO ARGUMENT METHOD");
+  public void addAccount() {
+    System.out.println("===>> " + getClass() + ": ADDING AN ACCOUNT BUT WITH NO ARGUMENT METHOD");
+  }
+
+  public void addAccount(Account theAccount) {
+    System.out.println(
+        "===>> "
+            + getClass()
+            + ": DOING MY DB WORK: ADDING AN ACCOUNT BUT USING SINGLE ARGUMENT METHOD");
+  }
+
+  public void addAccount(Account theAccount, boolean vipFlag) {
+    System.out.println("===>> " + getClass() + ": DOING MY DB WORK: ADDING AN ACCOUNT");
+  }
+
+  public List<Account> findAccounts() {
+    List<Account> myAccounts = new ArrayList<Account>();
+
+    // create sample accounts
+    Account temp1 = new Account("John", "Silver");
+    Account temp2 = new Account("Madhu", "Platinum");
+    Account temp3 = new Account("Luca", "Gold");
+
+    // add them to our accounts list
+    myAccounts.add(temp1);
+    myAccounts.add(temp2);
+    myAccounts.add(temp3);
+
+    return myAccounts;
+  }
+
+  public List<Account> findAccounts(boolean tripWire) {
+
+    // for academic purpose ... simulate an exception
+    if (tripWire) {
+      throw new RuntimeException("No soup for you!!!");
     }
 
-    public void addAccount(Account theAccount) {
-        System.out.println("===>> " + getClass() + ": DOING MY DB WORK: ADDING AN ACCOUNT BUT USING SINGLE ARGUMENT METHOD");
-    }
+    List<Account> myAccounts = new ArrayList<Account>();
 
-    public void addAccount(Account theAccount, boolean vipFlag) {
-        System.out.println("===>> " + getClass() + ": DOING MY DB WORK: ADDING AN ACCOUNT");
-    }
+    // create sample accounts
+    Account temp1 = new Account("John", "Silver");
+    Account temp2 = new Account("Madhu", "Platinum");
+    Account temp3 = new Account("Luca", "Gold");
 
-    public boolean doWork() {
-        System.out.println("===>> " + getClass() + ": doWork()");
-        return false;
-    }
+    // add them to our accounts list
+    myAccounts.add(temp1);
+    myAccounts.add(temp2);
+    myAccounts.add(temp3);
 
-    public String getName() {
-        System.out.println("===>> " + getClass() + ": in getName()");
-        return name;
-    }
 
-    public void setName(String name) {
-        System.out.println("===>> " + getClass() + ": in setName()");
-        this.name = name;
-    }
+    return myAccounts;
+  }
 
-    public String getServiceCode() {
-        System.out.println("===>> " + getClass() + ": in getServiceCode()");
-        return serviceCode;
-    }
+  public boolean doWork() {
+    System.out.println("===>> " + getClass() + ": doWork()");
+    return false;
+  }
 
-    public void setServiceCode(String serviceCode) {
-        System.out.println("===>> " + getClass() + ": in setServiceCode()");
-        this.serviceCode = serviceCode;
-    }
+  public String getName() {
+    System.out.println("===>> " + getClass() + ": in getName()");
+    return name;
+  }
 
+  public void setName(String name) {
+    System.out.println("===>> " + getClass() + ": in setName()");
+    this.name = name;
+  }
+
+  public String getServiceCode() {
+    System.out.println("===>> " + getClass() + ": in getServiceCode()");
+    return serviceCode;
+  }
+
+  public void setServiceCode(String serviceCode) {
+    System.out.println("===>> " + getClass() + ": in setServiceCode()");
+    this.serviceCode = serviceCode;
+  }
 }

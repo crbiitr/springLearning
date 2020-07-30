@@ -7,12 +7,11 @@ import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
-@Order(123)
+@Order(7)
 public class MyApiAnalyticsAspectWithOrder {
 
-	@Before("com.crbiitr.aspect.order.AopExpressionsWithOrderUtil.forDaoPackageNoGetterSetter()")
-	public void performApiAnalytics() {
-		System.out.println("\n=====>>> Performing API analytics");		
-	}
-
+  @Before("com.crbiitr.aspect.order.AopExpressionsWithOrderUtil.forDaoPackageNoGetterSetter()")
+  public void performApiAnalytics() {
+    System.out.println("\n=====>>> Performing API analytics");
+  }
 }

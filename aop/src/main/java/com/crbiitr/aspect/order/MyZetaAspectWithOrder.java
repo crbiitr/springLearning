@@ -10,9 +10,8 @@ import org.springframework.stereotype.Component;
 @Order(6)
 public class MyZetaAspectWithOrder {
 
-	@Before("com.crbiitr.aspect.order.AopExpressionsWithOrderUtil.forDaoPackageNoGetterSetter()")
-	public void performApiAnalytics() {
-		System.out.println("\n=====>>> FUNNY");		
-	}
-
+  @Before("com.crbiitr.aspect.order.AopExpressionsWithOrderUtil.forDaoPackageNoGetterSetter()")
+  public void performApiAnalytics() {
+    System.out.println("\n=====>>> FUNNY");
+  }
 }
