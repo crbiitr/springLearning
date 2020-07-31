@@ -12,6 +12,10 @@ Spring code
 http://localhost:8080/mvc
 ```
 
+## URL for MVC + Hibernate project
+```sh
+http://localhost:7001/spring-web-customer-tracker-all-java-config
+```
 
 ## Issues
 

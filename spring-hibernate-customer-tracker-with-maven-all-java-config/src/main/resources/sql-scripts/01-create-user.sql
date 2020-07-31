@@ -1,4 +1,4 @@
-CREATE USER 'springstudent'@'localhost' IDENTIFIED BY 'springstudent';
+CREATE USER 'springstudent'@'localhost' IDENTIFIED BY 'Pasword123#';
 
 GRANT ALL PRIVILEGES ON * . * TO 'springstudent'@'localhost';
 
@@ -12,4 +12,4 @@ GRANT ALL PRIVILEGES ON * . * TO 'springstudent'@'localhost';
 # See the MySQL Reference Manual for details: 
 # https://dev.mysql.com/doc/refman/8.0/en/caching-sha2-pluggable-authentication.html
 #
-ALTER USER 'springstudent'@'localhost' IDENTIFIED WITH mysql_native_password BY 'springstudent';
+ALTER USER 'springstudent'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Pasword123#';
